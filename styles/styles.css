@@ -24,6 +24,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: right 0.3s ease;
+}
+
+.menu__nav__icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
 }
 
 .menu__nav__items{
@@ -49,6 +56,10 @@
     text-decoration: none;
 }
 
+.menu__nav__icon{
+    display: none;
+}
+
 .menu__principal{
     display: flex;
     justify-content: center;
@@ -65,6 +76,7 @@
 .menu__principal__subtitulo{
     color: var(--color-fuente);
     font-family: "Inter", sans-serif;
+    font-weight: 600;
     font-size: 2.4rem;
     text-align: center;
 }
@@ -97,6 +109,14 @@
         padding: 0;
     }
 
+    .menu__nav__icon {
+        display: block;
+    }
+
+    .menu__nav__items {
+        display: none;
+    }
+
     .menu__principal{
         display: flex;
         justify-content: center;
@@ -104,7 +124,7 @@
     }
 
     .menu__principal__titulo{
-        font-size:  3rem;
+        font-size:  4rem;
     }
 
     .menu__principal__subtitulo{
