@@ -91,10 +91,10 @@
     width: 35.75rem;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1200px) {
     .menu{
-        background-position: bottom;
-        padding: 0 0 0 0;
+        background-image: url(../assets/background-pixelSize.jpg);
+        padding: 0;
     }
 
     .menu__principal{
@@ -105,7 +105,10 @@
 
     .menu__principal__titulo{
         font-size:  3rem;
-        justify-content: center;
+    }
+
+    .menu__principal__subtitulo{
+        font-size:  1.5rem;
     }
 
     .menu__principal__boton{
