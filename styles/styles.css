@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap');
 
 :root{
-    --color-fuente: #001d2f;
+    --color-primario: #344c64;
+    --color-secundario: #577b8d;
+    --color-terciario: #57a6a1;
+    --letra-titulo: "League Spartan", sans-serif;
+    --letra-texto: "Quicksand", sans-serif;
 }
 
 /* Resetear CSS */
@@ -11,20 +15,15 @@
 }
 
 .menu{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem; /* 24px */
-    background-image: url(../assets/background-fullSize.jpg);
-    background-size: cover;
-    padding: 0px 200px 0px 200px;
+
 }
 
 .menu__nav{
-    padding: 1.5rem;
+    padding: 0 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: right 0.3s ease;
+    background-color: #FFFFFF;
 }
 
 .menu__nav__icon {
@@ -40,67 +39,116 @@
 }
 
 .menu__nav__links{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--letra-texto);
     font-weight: 600;
     color: #001d2f;
     text-decoration: none;
 }
 
 .menu__nav__boton{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--letra-texto);
     font-weight: 600;
-    color: #0f866c;
+    background-color: var(--color-terciario);
+    color: #FFFFFF;
     border-radius: 5rem;
-    border: #0f866c solid;
+    border: var(--color-terciario) solid;
     padding: 8px 30px;
     text-decoration: none;
-}
-
-.menu__nav__icon{
-    display: none;
-}
-
-.menu__principal{
-    display: flex;
-    justify-content: center;
-}
-
-.menu__principal__titulo{
-    color: var(--color-fuente);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size:  5.5rem;
     text-align: center;
 }
 
-.menu__principal__subtitulo{
-    color: var(--color-fuente);
-    font-family: "Inter", sans-serif;
+.menu__principal{
+    display: flex;    
+    background-image: url(../assets/menu-principal.png);
+    background-position: right;
+    background-size: cover;
+    height: 550px;
+    padding: 0 200px;
+}
+
+.menu__principal__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    width: 50%;
+}
+
+.menu__principal__titulo{
+    display: flex;
+    color: #FFFFFF;
+    font-family: var(--letra-titulo);
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size:  4.5rem;
     text-align: center;
 }
 
 .menu__principal__boton{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    background: #0f866c;
+    font-family: var(--letra-texto);
+    font-size: 25px;
+    color: #FFFFFF;
     border-radius: 5rem;
-    padding: 16px 35px;
+    border: #FFFFFF solid;
+    padding: 15px 30px;
+    text-decoration: none;
 }
 
 .menu__principal__parrafo{
     color: var(--color-fuente);
-    font-family: "Inter", sans-serif;
+    font-family: var(--letra-texto);
     font-size: 10px;
     text-align: center;
 }
 
 .menu__principal__img{
     width: 35.75rem;
+}
+
+
+.introduccion{
+    background-image: url(../assets/introduccion.png);
+    background-size: cover;
+    display: flex;
+    padding: 0 200px;
+    height: 900px;
+}
+
+.introduccion__div{
+    padding: 100px 0px 0px 0px;
+    gap:48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.introduccion__div__titulo{
+    font-family: var(--letra-titulo);
+    font-size: 50px;
+    color: var(--color-primario);
+    text-align: center;
+}
+
+.introduccion__div__parrafo{
+    font-family: var(--letra-texto);
+    text-align: justify;
+    color: var(--color-primario);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.introduccion__div__boton{
+    font-family: var(--letra-texto);
+    font-weight: 600;
+    background-color: var(--color-terciario);
+    color: #FFFFFF;
+    border-radius: 5rem;
+    border: var(--color-terciario) solid;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
 }
 
 @media (max-width: 1200px) {
@@ -117,7 +165,7 @@
         display: none;
     }
 
-    .menu__principal{
+    .menu__principal_old{
         display: flex;
         justify-content: center;
         padding: 0 10px 0px 10px;
