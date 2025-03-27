@@ -1,11 +1,15 @@
 import React from "react";
 
-export default function IntroduccionSection() {
+export default function IntroduccionSection({ title }) {
+  function Saludo() {
+    alert("Kuno");
+  }
+
   return (
     <section className="introduccion">
       <div className="introduccion__div"></div>
       <div className="introduccion__div">
-        <h2 className="introduccion__div__titulo">¿Qué es Medalion?</h2>
+        <h2 className="introduccion__div__titulo">{title}</h2>
         <p className="introduccion__div__parrafo">
           Nos especializamos en la creación de landing pages optimizadas para
           clientes en línea. Combinamos estrategia digital, diseño atractivo y
@@ -29,7 +33,7 @@ export default function IntroduccionSection() {
           Possimus, cum voluptatem!
         </p>
         <div className="">
-          <a className="introduccion__div__boton" href="">
+          <a onClick={Saludo} className="introduccion__div__boton" href="">
             Contáctanos
           </a>
         </div>

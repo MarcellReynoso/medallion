@@ -1,3 +1,4 @@
+"use client";
 import IntroduccionSection from "./components/introduccionSection";
 import MenuPrincipalSection from "./components/menuPrincipalSection";
 import styles from "./page.module.css";
@@ -42,7 +43,9 @@ export default function Home() {
         </div>
       </nav>
       <MenuPrincipalSection />
-      <IntroduccionSection />
+      <IntroduccionSection title={"Hola"} />
+      <MenuPrincipalSection />
+      <IntroduccionSection title={"Mundo"} />
     </main>
   );
 }
