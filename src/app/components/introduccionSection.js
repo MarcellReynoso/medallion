@@ -24,13 +24,13 @@ export default function IntroduccionSection({ title }) {
           impactar, persuadir y vender.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
           laboriosam doloremque delectus ea explicabo quidem ad, illum odit
           accusantium fuga optio dicta! Dolore obcaecati sit animi itaque ad
           officia quas. Lorem ipsum dolor sit amet consectetur, adipisicing
           elit. Illum error accusantium fugiat atque qui sapiente vel dolore
           harum corporis, nesciunt incidunt odio, mollitia illo a optio unde?
-          Possimus, cum voluptatem!
+          Possimus, cum voluptatem! */}
         </p>
         <div className="">
           <a onClick={Saludo} className="introduccion__div__boton" href="">

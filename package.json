@@ -2,6 +2,19 @@
   "name": "medallion-nextjs",
   "version": "0.1.0",
   "private": true,
+  "description": "",
+  "homepage": "https://github.com/MarcellReynoso/medallion#readme",
+  "bugs": {
+    "url": "https://github.com/MarcellReynoso/medallion/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcellReynoso/medallion.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
