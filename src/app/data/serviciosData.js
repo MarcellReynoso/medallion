@@ -1,7 +1,7 @@
 const serviciosData = [
   {
     titulo: "Mantenimiento y Hosting Web",
-    imagen: "../services/hosting.png",
+    imagen: "/services/hosting.png",
     lista: [
       "Alojamiento web seguro y rápido", 
       "Mantenimiento mensual (actualizaciones, backups, soporte).", 
@@ -10,7 +10,7 @@ const serviciosData = [
   },
   {
     titulo: "Desarrollo de Landing Pages",
-    imagen: "../services/desarrollo landing.png",
+    imagen: "/services/desarrollo landing.png",
     lista: 
     ["Diseño profesional orientado a la conversión de Leads.", 
       "Optimización móvil y SEO básico.",
@@ -20,7 +20,7 @@ const serviciosData = [
   },
   {
     titulo: "Diseño de plantillas para Rubros específicos",
-    imagen: "../services/diseño plantilla.png",
+    imagen: "/services/diseño plantilla.png",
     lista: [
       "Landing pages preconfiguradas para dentistas, cirujanos, plásticos, terapeutas, abogados, etc.", 
       "Personalización visual y de textos."
