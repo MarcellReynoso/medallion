@@ -1,4 +1,4 @@
-import Navbar from "../components/navBar";
+import Navbar from "../components/Navbar";
 import Servicios from "../components/Servicios";
 import React from "react";
 import serviciosData from "../data/serviciosData";
