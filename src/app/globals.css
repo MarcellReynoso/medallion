@@ -51,6 +51,7 @@ nav {
 }
 
 .menu__nav__boton {
+  font-size: 25px;
   font-family: var(--letra-texto);
   font-weight: 600;
   background-color: var(--color-terciario);
@@ -164,6 +165,12 @@ nav {
 .servicios__row{
   display: flex;
   justify-content: space-evenly;
+  height: 60dvh;
+}
+
+.servicios__row> :nth-child(1),
+.servicios__row> :nth-child(3) {
+  align-self: flex-end;
 }
 
 .servicios__container {
@@ -174,7 +181,7 @@ nav {
   /* gap: 20px; */
   align-items: center;
   width: 300px;
-  height: 500px;
+  height: 85%;
 }
 
 .servicios__titulo {
@@ -182,7 +189,7 @@ nav {
   font-size: 100px;
   color: var(--color-primario);
   text-align: center;
-  padding: 100px;
+  padding: 50px 0 40px 0;
 }
 
 .servicios__subtitulo {
@@ -190,6 +197,21 @@ nav {
   font-size: 30px;
   color: var(--color-primario);
   text-align: center;
+  margin-bottom: 20px;
+  padding: 0 20px  0 40px;
+}
+
+.servicios__ul{
+  padding: 0 20px 0 40px;
+  text-align: justify;
+  font-family: var(--letra-texto);
+}
+
+#btn__cotizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
 }
 
 @media (max-width: 1200px) {

@@ -1,12 +1,12 @@
 "use client";
 import IntroduccionSection from "./components/introduccionSection";
 import MenuPrincipalSection from "./components/menuPrincipalSection";
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <MenuPrincipalSection />
       <IntroduccionSection title={"Introducción"} />
     </>

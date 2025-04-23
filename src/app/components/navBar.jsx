@@ -1,6 +1,7 @@
 import React from "react";
+import Link from "next/link";
 
-export default function Navbar() {
+export default function NavBar() {
   return (
     <nav>
       <ul id="menu__nav">
@@ -18,9 +19,9 @@ export default function Navbar() {
           </a>
         </li>
         <li className="menu__nav__items">
-          <a className="menu__nav__links" href="/services">
-            Servicio
-          </a>
+          <Link className="menu__nav__links" href="/servicios">
+            Servicios
+          </Link>
         </li>
         <li className="menu__nav__items">
           <a className="menu__nav__links" href="">
@@ -33,9 +34,9 @@ export default function Navbar() {
           </a>
         </li>
         <li className="menu__nav__items">
-          <a className="menu__nav__boton" href="">
+          <Link className="menu__nav__boton" href="">
             Obtener solución
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
