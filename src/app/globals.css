@@ -175,12 +175,13 @@ nav {
 
 .servicios__container {
   box-sizing: content-box;
-  border: #001d2f solid 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   /* gap: 20px; */
   align-items: center;
-  width: 300px;
+  width: 400px;
   height: 85%;
 }
 
@@ -213,6 +214,31 @@ nav {
   align-items: center;
   width: 100wh;
 }
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 500px; */
+  background-color: var(--color-primario);
+  color: #ffffff;
+  padding: 100px 400px 100px 400px;
+}
+
+.faq__title{
+  font-family: var(--letra-titulo);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.faq__parrafo {
+  font-family: var(--letra-titulo);
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
 
 @media (max-width: 1200px) {
   .menu {

@@ -4,7 +4,7 @@ export default function Servicios({ titulo, imagen, lista}) {
   return (
     <div className="servicios__container">
       <img
-        style={{ padding: "20px 0 20px 0", width: "50%", height: "40%" }}
+        style={{ padding: "20px 0 20px 0", width: "43%", height: "40%" }}
         src={imagen}
         alt="Imagen de servicio"
       />

@@ -19,7 +19,7 @@ function page() {
           ))}
         </div>
         <div  id="btn__cotizar">
-          <a className="menu__nav__boton" href="">
+          <a className="menu__nav__boton" href="/">
             Cotizar
           </a>
         </div>
