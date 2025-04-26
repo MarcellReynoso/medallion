@@ -16,6 +16,10 @@
   margin: 00;
 }
 
+a{
+  text-decoration: none;
+}
+
 .menu__nav__icon {
   font-size: 2rem;
   cursor: pointer;
@@ -66,12 +70,8 @@ nav {
 }
 
 .menu__principal {
-  display: flex;
-  background-image: url("/menu-principal.png");
-  background-position: right;
-  background-size: cover;
-  height: 550px;
-  padding: 0 200px;
+  background-color: var(--color-primario);
+  font-family: var(--letra-titulo);
 }
 
 .menu__principal__div {
