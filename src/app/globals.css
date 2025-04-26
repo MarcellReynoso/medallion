@@ -69,9 +69,16 @@ nav {
   text-align: center;
 }
 
-.menu__principal {
+.fondo {
   background-color: var(--color-primario);
-  font-family: var(--letra-titulo);
+}
+
+.letratitulo{
+    font-family: var(--letra-titulo);
+}
+
+.letratexto{
+    font-family: var(--letra-texto);
 }
 
 .menu__principal__div {
@@ -216,31 +223,6 @@ nav {
   align-items: center;
   width: 100wh;
 }
-
-.faq{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* height: 500px; */
-  background-color: var(--color-primario);
-  color: #ffffff;
-  padding: 100px 400px 100px 400px;
-}
-
-.faq__title{
-  font-family: var(--letra-titulo);
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.faq__parrafo {
-  font-family: var(--letra-titulo);
-  font-size: 25px;
-  text-align: justify;
-  padding-top: 10px;
-  padding-bottom: 70px;
-}
-
 
 @media (max-width: 1200px) {
   .menu {

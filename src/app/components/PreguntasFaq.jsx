@@ -33,7 +33,7 @@ export default function PreguntasFaq({ text }) {
       {isVisible && (
         <TypeAnimation
           cursor={false}
-          className={`faq__title ${CURSOR_CLASS_NAME}`}
+          className={`letratitulo col-xl-6 col-10 mx-auto py-5 text-justify text-white text-4xl font-semibold ${CURSOR_CLASS_NAME}`}
           sequence={[
             text,
             1000,
@@ -41,6 +41,7 @@ export default function PreguntasFaq({ text }) {
             6000,
           ]}
           repeat={Infinity}
+          wrapper="div"
         />
       )}
     </div>

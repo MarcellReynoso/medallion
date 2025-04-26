@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main className="">
       <MenuPrincipalSection />
-      <IntroduccionSection title={"Introducción"} />
-      <ServiciosSection />
+      {/* <IntroduccionSection title={"Introducción"} /> */}
+      {/* <ServiciosSection /> */}
       <Faq />
     </main>
   );
