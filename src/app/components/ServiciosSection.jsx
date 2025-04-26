@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 import Servicios from "../components/Servicios";
 import serviciosData from "../data/serviciosData";
 
-function page() {
+export default function ServiciosSection() {
   return (
     <section>
-      <Navbar />
       <div className="servicios">
         <h1 className="servicios__titulo">Nuestros Servicios</h1>
         <div className="servicios__row">
@@ -18,7 +17,7 @@ function page() {
             />
           ))}
         </div>
-        <div  id="btn__cotizar">
+        <div id="btn__cotizar">
           <a className="menu__nav__boton" href="/">
             Cotizar
           </a>
@@ -27,5 +26,3 @@ function page() {
     </section>
   );
 }
-
-export default page;
