@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./BarraNavegacion";
 import Servicios from "../components/Servicios";
 import serviciosData from "../data/serviciosData";
 

@@ -6,7 +6,7 @@ import ServiciosSection from "./components/ServiciosSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <MenuPrincipalSection />
       <IntroduccionSection title={"Introducción"} />
       <ServiciosSection />
