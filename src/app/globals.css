@@ -10,10 +10,9 @@
   --letra-texto: "Quicksand", sans-serif;
 }
 
-/* Resetear CSS */
-* {
-  padding: 0;
-  margin: 00;
+h3{
+  background-color: #344c64;
+  color: white;
 }
 
 a{
@@ -67,10 +66,6 @@ nav {
   padding: 8px 30px;
   text-decoration: none;
   text-align: center;
-}
-
-.fondo {
-  background-color: var(--color-primario);
 }
 
 .letratitulo{
