@@ -5,7 +5,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation = ["Dashboard", "Team", "Projects", "Calendar", "Gaaa"];
+const navigation = ["Nosotros", "Servicios", "Contáctanos", "FAQ", "Obtener solución"];
 
 export default function BarraNavegacion() {
   return (

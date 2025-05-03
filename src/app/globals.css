@@ -10,7 +10,11 @@
   --letra-texto: "Quicksand", sans-serif;
 }
 
-/* Resetear CSS */
+h3{
+  background-color: #344c64;
+  color: white;
+}
+
 a{
   text-decoration: none;
 }
