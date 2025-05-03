@@ -11,11 +11,6 @@
 }
 
 /* Resetear CSS */
-* {
-  padding: 0;
-  margin: 00;
-}
-
 a{
   text-decoration: none;
 }
@@ -67,10 +62,6 @@ nav {
   padding: 8px 30px;
   text-decoration: none;
   text-align: center;
-}
-
-.fondo {
-  background-color: var(--color-primario);
 }
 
 .letratitulo{
