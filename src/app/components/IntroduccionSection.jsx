@@ -12,7 +12,7 @@ export default function IntroduccionSection() {
         <h2 className="text-4xl xl:text-7xl text-[#344c64] text-center font-semibold letratitulo">{"¿Qué es Medalion?".toUpperCase()}</h2>
         <p className="
         flex px-12 py-6 xl:p-12
-        letratexto text-xl xl:text-3xl 
+        letratexto text-base xl:text-3xl 
         text-justify text-[#344c64] font-semibold">
           Nos especializamos en la creación de landing pages optimizadas para
           clientes en línea. Combinamos estrategia digital, diseño atractivo y
