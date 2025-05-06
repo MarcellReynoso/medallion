@@ -1,5 +1,4 @@
 "use client";
-import Faq from "./components/Faq";
 import BarraNavegacion from "./components/BarraNavegacion";
 import IntroduccionSection from "./components/IntroduccionSection";
 import MenuPrincipalSection from "./components/MenuPrincipalSection";
@@ -11,8 +10,8 @@ export default function Home() {
     <main className="">
       <BarraNavegacion />
       <MenuPrincipalSection />
+      <IntroduccionSection title={"Introducción"} />
       <AccordionUsage />
-      {/* <IntroduccionSection title={"Introducción"} /> */}
       {/* <ServiciosSection /> */}
       {/* <Faq /> */}
     </main>

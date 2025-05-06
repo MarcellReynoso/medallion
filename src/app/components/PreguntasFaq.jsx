@@ -33,7 +33,7 @@ export default function PreguntasFaq({ text }) {
       {isVisible && (
         <TypeAnimation
           cursor={false}
-          className={`letratitulo col-xl-6 col-10 mx-auto py-5 text-justify text-4xl font-semibold ${CURSOR_CLASS_NAME}`}
+          className={`letratitulo col-xl-6 col-10 mx-auto px-5 py-5 text-justify xl:text-5xl text-3xl font-semibold ${CURSOR_CLASS_NAME}`}
           sequence={[
             text,
             1000,
