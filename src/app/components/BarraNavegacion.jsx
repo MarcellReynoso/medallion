@@ -26,15 +26,14 @@ export default function BarraNavegacion() {
             </DisclosureButton>
           </div>
 
-          <div className="hidden sm:flex flex-1 items-center justify-between">
+          <div className="hidden md:flex flex-1 items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              {/* <img
+              <img
                 alt="Logo"
                 src="/logo-blanco.jpeg"
-                className="h-8 w-auto"
-              /> */}
-              Logo Medallion
+                className="h-12"
+              />
             </div>
 
             {/* Botones del navbar */}
