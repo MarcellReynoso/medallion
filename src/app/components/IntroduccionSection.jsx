@@ -2,7 +2,7 @@ import React from "react";
 
 export default function IntroduccionSection() {
   return (
-    <section id="introduccion" className="flex flex-col xl:flex-row md:flex-row w-full bg-white xl:px-40">
+    <section id="introduccion" className="flex flex-col xl:flex-row md:flex-row w-full bg-white xl:px-50">
       <div className="xl:w-1/2 md:w-1/2 flex justify-center items-center">
         <img src="/img/25.png" alt="Imagen" />
       </div>

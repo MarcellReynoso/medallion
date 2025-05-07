@@ -10,10 +10,9 @@ export default function Home() {
     <main className="">
       <BarraNavegacion />
       <MenuPrincipalSection />
-      <IntroduccionSection title={"Introducción"} />
+      <IntroduccionSection/>
       <AccordionUsage />
-      {/* <ServiciosSection /> */}
-      {/* <Faq /> */}
+      <ServiciosSection />
     </main>
   );
 }

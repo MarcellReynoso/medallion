@@ -58,7 +58,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             Una landing page es una página web enfocada en lograr un objetivo
             específico, como conseguir reservas, captar leads o vender un
             servicio. Está optimizada para conversiones y es ideal para campañas
@@ -74,7 +74,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             Una landing page es una sola página enfocada en una acción concreta (ej.
             agendar una cita), mientras que un sitio web completo tiene varias
             secciones (nosotros, servicios, blog, etc.). Las landing pages
@@ -90,7 +90,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             Depende del nivel de personalización, pero nuestros planes empiezan
             desde S/500. Ofrecemos paquetes con funcionalidades como integración con
             WhatsApp, email marketing, hosting, entre otros.
@@ -105,7 +105,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             El tiempo de entrega estándar es de 3 a 7 días hábiles, dependiendo de
             la complejidad y de qué tan rápido nos brindes la información necesaria
             (textos, imágenes, etc.).
@@ -120,7 +120,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             Solo necesitamos: Información sobre tu negocio y tus servicios. Imágenes
             o logotipo (si no tienes, te ayudamos). Datos de contacto y objetivo de
             la landing (ej. agendar citas, vender un curso, etc.).
@@ -135,7 +135,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="text-2xl text-white text-justify">
+          <p className="lg:text-2xl text-base letratexto text-white text-justify">
             ¡Claro! Podemos agregar botones de contacto directo, formularios que
             envían mensajes a tu WhatsApp.
           </p>
