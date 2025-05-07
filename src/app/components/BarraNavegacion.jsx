@@ -5,7 +5,13 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation = ["Nosotros", "Servicios", "Contáctanos", "FAQ", "Obtener solución"];
+const navigation = [
+  { name: "Nosotros", href: "#introduccion" },
+  // { name: "Servicios", href: "#servicios" },
+  // { name: "Contáctanos", href: "#contactanos" },
+  { name: "FAQ", href: "#faq" },
+  { name: "Obtener solución", href: "/" },
+];
 
 export default function BarraNavegacion() {
   return (
@@ -29,22 +35,19 @@ export default function BarraNavegacion() {
           <div className="hidden md:flex flex-1 items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              <img
-                alt="Logo"
-                src="/logo-blanco.jpeg"
-                className="h-12"
-              />
+              <img alt="Logo" src="/logo-blanco.jpeg" className="h-12" />
             </div>
 
             {/* Botones del navbar */}
             <div className="flex space-x-6 gap-7">
               {navigation.map((item) => (
-                <button
-                  key={item}
+                <a
+                  key={item.name}
+                  href={item.href}
                   className="text-gray-700 rounded-md px-3 py-2 text-lg font-medium"
                 >
-                  {item}
-                </button>
+                  {item.name}
+                </a>
               ))}
             </div>
           </div>
@@ -56,15 +59,16 @@ export default function BarraNavegacion() {
         <div className="space-y-4 px-4 pt-4 pb-6">
           {navigation.map((item) => (
             <DisclosureButton
-              key={item}
+              key={item.name}
+              as="a"
+              href={item.href}
               className="flex w-full items-center justify-start rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
             >
-              {item}
+              {item.name}
             </DisclosureButton>
           ))}
         </div>
       </DisclosurePanel>
-
     </Disclosure>
   );
 }

@@ -50,7 +50,7 @@ export default function CustomizedAccordions() {
   };
 
   return (
-    <div className="xl:px-96 bg-[#344c64] py-10">
+    <section id="faq" className="xl:px-96 bg-[#344c64] py-10">
       <Accordion expanded={expanded === "panel1"} onChange={handleChange("panel1")}>
         <AccordionSummary aria-controls="panel1-content" id="panel1-header">
           <Typography component="span">
@@ -141,6 +141,6 @@ export default function CustomizedAccordions() {
           </p>
         </AccordionDetails>
       </Accordion>
-    </div>
+    </section>
   );
 }

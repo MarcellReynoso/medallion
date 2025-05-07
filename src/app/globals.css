@@ -10,6 +10,10 @@
   --letra-texto: "Quicksand", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 h3{
   background-color: #344c64;
   color: white;
